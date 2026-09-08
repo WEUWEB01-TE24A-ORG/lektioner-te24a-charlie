@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{background-image: url(bilder/claudio-testa--SO3JtE3gZo-unsplash.jpg);}
+body{background-size: 100%;}
+h1{  font-family: "Fascinate Inline", system-ui;
+margin-left: 450px;}
+h2{  font-family: "Open Sans", sans-serif;
+  margin-left: 450px;}
+p{  font-family: "Open Sans", sans-serif;
+    color: black;
+margin-left: 450px;}
+a{}
+
