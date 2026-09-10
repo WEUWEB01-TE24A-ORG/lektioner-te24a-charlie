@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Molle:ital@1&display=swap')
+body{}
+table{
+background-color: burlywood;
+}
+caption{
+    background-image:url(bilder/meg-KzJunPli4VA-unsplash.jpg) ;
+    font-size: 50px;
+    padding: 20px;
+     font-family: "Amarante", serif;
+}
+tr{}
+th{
+    font-size: 25px;
+    padding: 20px;
+     font-family: "Molle", cursive;
+}
+td{
+    font-size: 15px;
+    padding: 20px;
+     font-family: "Molle", cursive;
+}
+img{
+    width: 250px;
+}
