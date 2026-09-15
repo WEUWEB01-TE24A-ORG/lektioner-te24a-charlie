@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+body{
+background-image: url(./bilder/andre-blanco-WaE_GcS5YtU-unsplash.jpg);
+background-size:cover;
+}
+h1{color: gold;
+font-family: "Story Script", sans-serif;
+font-size: 120px;
+text-transform: uppercase;
+text-shadow: 6px 6px 0 black;
+margin-left: 350px;
+margin-bottom: 150px;
+}
+h2{color: gold;
+font-family: "Story Script", sans-serif;
+font-size: 60px;
+text-transform: uppercase;
+text-shadow: 5px 5px 0 black;
+margin-left: 475px;
+}
+p{
+    margin-left: 900px;
+    margin-top: 300px;
+}
+a{color: black;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 30px;
+text-decoration: none;
+background-color:gold;
+padding: 10px 20px 10px 20px;
+border-radius: 5px;
+
+}
+
