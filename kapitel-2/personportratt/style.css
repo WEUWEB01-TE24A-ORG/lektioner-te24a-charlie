@@ -1,18 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
 body{
-    background-color: rgb(60, 60, 59);
-}
+    background-image: url(bilder/brightons\ flaggor.jpeg);
+   background-size: cover;
+}   
 
 h1{
-    color: deepskyblue;
-}
+    color: goldenrod;
+      font-family: "Goblin One", serif;
+      margin-left: 550px;
+}   
 
 p{
-    color: deepskyblue  ;
-    
+    color: rgb(255, 242, 0);
+    font-family: "Goblin One", serif;
+    padding-top: 40px;
+    margin-left: 300px;
 }
 
 img{ 
-max-width: 1500px;
-max-height: 1500px;
+max-width: 1100px;
+max-height: 1100px;
+margin-left: 150px;
+}
+a{
+    color: rgb(2, 2, 2);
+    margin-top: 200px;
+    margin-left: 200px;
+
+
 }
 
+iframe{ 
+    margin-left: 1100px;
+    max-width: 300px;
+    max-height: 150px;
+    margin-top: -6000px;
+} 
