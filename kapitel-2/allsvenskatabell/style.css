@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+header {
+    background-color: #000;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 4px solid #ffd700;
+}
+
+header h1 {
+    font-size: 42px;
+    color: #ffd700;
+}
+
+header p {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    ),
+    url("https://images.unsplash.com/photo-1579952363873-27f3bade9f55")
+    center/cover;
+}
+
+.hero h2 {
+    font-size: 45px;
+    color: #ffd700;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 550px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #ffd700;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    color: #ffd700;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #222;
+}
+
+th {
+    background-color: #ffd700;
+    color: #111;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+tr:hover {
+    background-color: #333;
+}
+
+.card {
+    background-color: #222;
+    margin: 30px 20px;
+    border-left: 5px solid #ffd700;
+}
+
+.card h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.history {
+    line-height: 1.7;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    padding: 25px;
+    color: #888;
+    margin-top: 30px;
+}
