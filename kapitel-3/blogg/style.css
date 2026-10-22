@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Stardos+Stencil:wght@400;700&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* sidans utseende*/
+body{
+    background-color: var(--ink-black);
+}
+
+div.sida{
+background-color: var(--prussian-blue);
+width: 900px;
+margin-left: auto;
+margin-right:auto ;
+padding: 60px;
+}
+
+:root{
+--ink-black: #000814ff;
+--prussian-blue: #001d3dff;
+--regal-navy: #003566ff;
+--golden-bronze: #cca000ff;
+--bright-amber: #f5cc00ff;
+}
+
+/* innehållets utseende */
+
+h1{
+  font-family: "Stardos Stencil", system-ui;
+font-size: 80px;
+color: var(--bright-amber);
+}
+div.inlagg{
+background-color: var(--regal-navy);
+padding: 50px;
+margin-bottom: 30px;
+box-shadow: 5px  5px 20px #000814ff;
+}
+img{
+width: 100%;
+border: 5px solid #cca000ff  ;
+}
+h2{
+
+  font-family: "Stardos Stencil", system-ui;
+  color: var(--bright-amber);
+  font-size: ;
+}
+p.datum{
+    font-family: "Stardos Stencil", system-ui;
+    color: var(--bright-amber);
+}
+
+p{
+  font-family: "Stardos Stencil", system-ui;
+  color: var(--bright-amber);
+}
+
+
+
+
