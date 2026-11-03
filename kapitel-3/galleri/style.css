@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Mrs+Sheppards&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*färger
+--flag-red: #cb2026ff;
+--intense-cherry: #cc1e4aff;
+--vivid-tangerine: #f4801fff;
+--bright-amber: #ffc906ff;
+--yale-blue: #004c6cff;
+--ocean-blue: #008cd1ff;
+--regal-navy: #121f45ff;
+--space-indigo: #121f45ff;
+*/
+
+
+/* sidans utseende*/
+body{
+    background-color: rgb(14, 22, 49);
+}
+
+div.kontainer{
+font-family: "Agbalumo", system-ui;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+
+}
+/*sidans rubriker*/
+
+h1{
+  font-family: "Mrs Sheppards", cursive;
+color: #cb2026ff;
+font-size: 80px;
+}
+
+p.intro{
+font-family: "Agbalumo", system-ui;
+color: #cc1e4aff;
+font-size: 30px;
+}
+
+/*boxarnas utseende*/
+div.box{
+background-color:#121f45ff;
+padding: 50px;
+margin-bottom: 30px;
+display: flex;
+gap: 30px;
+
+}
+box.right{
+    flex-direction: row reverse;
+}
+img{
+width: 50%;
+}
+
+p.bildtext{
+font-family: "Agbalumo", system-ui;
+color: #ffc906ff;
+
+}
+
+
+
+
+
