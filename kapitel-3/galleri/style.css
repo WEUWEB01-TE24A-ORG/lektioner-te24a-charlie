@@ -59,11 +59,8 @@ padding: 50px;
 margin-bottom: 30px;
 display: flex;
 gap: 30px;
+}
 
-}
-box.right{
-    flex-direction: row reverse;
-}
 img{
 width: 50%;
 }
